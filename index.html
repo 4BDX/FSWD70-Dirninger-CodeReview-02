@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Code Review Nr. 2 Dirninger</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="HeaderLogo">
+		<div class="LogoBox1">
+			<a href="https://www.codefactory.wien/">
+				<img src="img/logo-newspaper-cf.png" alt="newspaper CF Logo" height="45%">
+			</a>
+		</div>
+		<div class="LogoBox2">
+			<a href="https://www.codefactory.wien/">
+				<img src="img/banner-1.png" alt="Full Stack web developer Logo">
+			</a>
+		</div>
+	</div>
+	<div class="Navbar">
+		<ul>
+		  <li><a class="active" href="index.html">Home</a></li>
+		  <li><a href="tech.html">Tech</a></li>
+		  <li><a href="culture.html">Culture</a></li>
+		  <li><a href="video.html">Video</a></li>
+		</ul>
+	</div>
+
+	<div class="SeitenInhalt">
+		<div class="Date">
+			<script>
+				var days = [
+				"Sunday",
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday",
+				"Saturday"
+				];
+				let today = new Date();
+				let dd = today.getDate();
+				let mm = today.getMonth()+1; 
+				const yyyy = today.getFullYear();
+				if(dd<10) 
+				{
+				    dd=`0${dd}`;
+				} 
+
+				if(mm<10) 
+				{
+				    mm=`0${mm}`;
+				} 
+
+				today = `${dd}.${mm}.${yyyy}`;
+				document.write(days[new Date().getDay()] + ", " + today);
+			</script>
+		</div>
+		<div class="TopNews">
+			Top News
+		</div>
+		<div class="ArticleBannerBox">
+			<div class="ArticleBox1">
+				<div class="ArticleRow1">
+					<div class="Box1">
+						<img class="img1" src="img/nasa.png" alt="Nasa">
+						<div class="ArticleText" >
+							<h4><b>NASA is trying to squash conspiracy theories about the space station leak
+							</b></h4>
+						</div>
+					</div>
+					<div class="Box1">
+						<img class="img1" src="img/eu.png" alt="EU">
+						<div class="ArticleText" >
+							<h4><b>EU approves controversial Copyright Directive, including Internet "link tax"
+							</b></h4>
+						</div>
+					</div>
+					<div class="Box1">
+						<img class="img1" src="img/jeff.png" alt="Jeff">
+						<div class="ArticleText" >
+							<h4><b>
+							Jeff Bezos is going to create schools where "the child is the customer"	
+							</b></h4>
+						</div>
+					</div>
+				</div>
+				<div class="TopNews">
+					Popular
+				</div>
+				<div class="ArticleRow1">
+					<div class="Box1">
+						<div class="ArticleText" >
+							<img class="img1" src="img/polar.png" alt="watches">
+							<h4><b>
+								Polar's new fitness watch will measure the wattage of your exercise
+							</b></h4>
+						</div>
+					</div>
+					<div class="Box1">
+						<img class="img1" src="img/musk.jpg" alt="Elon Musk">
+						<div class="ArticleText" >
+							<h4><b>
+								Elon Musk smokes marijuana live on web show
+							</b></h4>
+						</div>
+					</div>
+					<div class="Box1">
+						<img class="img1" src="img/snowden.jpg" alt="Edward Snowden">
+						<div class="ArticleText" >
+							<h4><b>
+								Edward Snowden surveillance powers ruled unlawful
+							</b></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Banner">
+				<a href="https://www.codefactory.wien/">
+					<img class="BannerImg" src="img/banner-2.png" alt="FSWD">
+				</a>
+			</div>
+		</div>
+		<div class="BecomeDev">
+			<a href="https://www.codefactory.wien/">
+				<img src="img/banner-3.png" alt="Become a Dev">
+			</a>
+		</div>
+
+
+		<div class="ArticleBannerBox2">
+			<div class="ArticleBox1">
+				<div class="ArticleRow1">
+					<div class="Box1">
+						<div class="ArticleText" >
+							<img class="img1" src="img/iphone.png" alt="Iphone">
+							<h2><b>
+								How to preorder the iPhone XS,
+								</br>
+								XS Max, and XR
+							</b></h2>
+						</div>
+					</div>
+					<div class="Box1">
+						<div class="ArticleText" >
+							<img class="img1" src="img/smart.png" alt="Powerstrip">
+							<h2><b>
+								This smart power strip lets you
+								</br>
+								individually control each outlet
+							</b></h2>
+						</div>
+					</div>
+				</div>
+				<div class="ArticleRow1">
+					<div class="Box1">
+						<div class="ArticleText" >
+							<img class="img1" src="img/one.png" alt="OnePlus">
+							<h2><b>
+								OnePlus announces super cheap
+								</br>
+								USB-C earbuds
+							</b></h2>
+						</div>
+					</div>
+					<div class="Box1">
+						<div class="ArticleText" >
+							<img class="img1" src="img/phone.png" alt="Phone">
+							<h2><b>
+								Spotify raises limit for offline
+								</br>
+								downloads to 10,000 songs per device
+							</b></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Banner">
+				<a href="https://www.codefactory.wien/">
+					<img class="BannerImg" src="img/banner-4.png" alt="CF">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="Navbar">
+		<ul>
+		  <li><a class="active" href="index.html">Home</a></li>
+		  <li><a href="tech.html">Tech</a></li>
+		  <li><a href="culture.html">Culture</a></li>
+		  <li><a href="video.html">Video</a></li>
+		</ul>
+	</div>
+	<div class="Footer">
+		<img src="img/logo-newspaper-cf.png" alt="newspaper CF Logo">
+	</div>
+	<div class="Footertxt">
+		<h1>Maximilian Dirninger - CodyFactory 2019
+		</h1>
+	</div>
+</body>
+</html>

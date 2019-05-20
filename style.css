@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif; }
+
+.HeaderLogo {
+  background-color: #5B1213;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5em;
+  height: 9em; }
+
+.LogoBox1 {
+  flex: 1;
+  margin-left: 0.5em;
+  margin-right: 6em; }
+  .LogoBox1 img {
+    max-width: 70%;
+    width: 70%;
+    height: auto; }
+
+.LogoBox2 {
+  flex: 2; }
+  .LogoBox2 img {
+    max-width: 100%;
+    width: 100%;
+    height: auto; }
+
+.Navbar {
+  background-color: black;
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-flow: row;
+  font-size: 2em;
+  height: 1.7em;
+  align-items: center; }
+  .Navbar a {
+    color: white;
+    text-decoration: none;
+    padding-right: 0.3em;
+    margin-top: 1px; }
+  .Navbar ul li {
+    display: inline-block; }
+  .Navbar li a:hover {
+    background-color: #5B1213; }
+
+.Date {
+  font-size: 1.2em;
+  display: flex;
+  justify-content: flex-end; }
+
+.SeitenInhalt {
+  padding: 1em 2.2em;
+  margin-bottom: 5em; }
+
+.TopNews {
+  display: flex;
+  background-color: #DEDEDE;
+  margin: 1em 0em;
+  font-size: 2em;
+  padding-left: 0.4em; }
+
+.ArticleBannerBox {
+  display: flex;
+  height: 42em; }
+
+.ArticleBannerBox2 {
+  display: flex;
+  height: 48em; }
+
+.ArticleBox1 {
+  display: flex;
+  flex-flow: column; }
+
+.ArticleRow1 {
+  display: flex;
+  width: 100%; }
+
+.Box1 {
+  display: flex;
+  flex-flow: column; }
+
+.img1 {
+  width: 85%;
+  height: auto; }
+  .img1 img {
+    vertical-align: text-bottom; }
+
+.ArticleText {
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+  color: white; }
+
+.BannerImg {
+  width: 9em;
+  height: 100%; }
+
+.BecomeDev {
+  display: flex; }
+  .BecomeDev img {
+    height: 60%; }
+
+.Footer {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end; }
+  .Footer img {
+    margin: 2em;
+    width: 19em;
+    height: 4em; }
+
+.Footertxt {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/*# sourceMappingURL=style.css.map */
